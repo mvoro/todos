@@ -1,0 +1,30 @@
+.wrapper > button{
+    padding: 0.25rem 0.5rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--br-radius);
+    color: var(--primary);
+
+    cursor: pointer;
+    transition: 0.25s;
+}
+.wrapper > button:hover{
+    background: var(--bg);
+}
+.wrapper > button:disabled{
+    background: var(--bg);
+    color: var(--text-secondary);
+}
+
+
+.wrapper > button:nth-child(1){
+    border-radius: var(--br-radius) 0 0 var(--br-radius);
+}
+.wrapper > button:nth-child(2){
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+.wrapper > button:nth-child(3){
+    border-radius: 0 var(--br-radius) var(--br-radius) 0;
+}

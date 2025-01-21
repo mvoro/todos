@@ -1,0 +1,34 @@
+:root {
+  --primary: #5448ff;
+  --text: #202224;
+  --text-secondary: #606060;
+  --bg: #FFFFFF;
+  --bg-secondary: #F5F6FA;
+  --border-color: #E0E0E0;
+  --br-radius: 6px;
+
+  --error: #ff4848;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  width: 100%;
+  height: 100dvh;
+
+  background: var(--bg-secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

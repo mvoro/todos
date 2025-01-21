@@ -1,0 +1,30 @@
+.wrapper, .todo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 0.5rem;
+}
+
+.wrapper{
+    padding: 1rem;
+    max-height: 500px;
+    overflow-y: auto;
+    gap: 0;
+}
+
+.todo{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0;
+}
+.todo > span{
+    font-size: 1rem;
+    color: var(--text);
+}
+.todo > span.completed{
+    text-decoration: line-through;
+    color: var(--text-secondary);
+    opacity: 0.5;
+}
